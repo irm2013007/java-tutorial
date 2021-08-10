@@ -65,7 +65,7 @@ public class Main {
       while (rs.next()) {
         output.add("Read from DB: " + rs.getTimestamp("tick"));
       }
-      System.out.println("hello");
+      System.out.println("updating the main class");
 
       model.put("records", output);
       return "db";
